@@ -6,6 +6,9 @@
 --bg-color-primary:rgba(88, 89, 91, 0.05);
 
 }
+body{
+  overflow-x: hidden;
+}
 /* font */
 .body2{
   font-family: Lato;
