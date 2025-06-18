@@ -3,7 +3,8 @@
   --color-primary: #164D92;
   --color-secondary: #F0F4FF;
   --color-tertiary: #58595B;
-;
+--bg-color-primary:rgba(88, 89, 91, 0.05);
+
 }
 /* font */
 .body2{
@@ -180,3 +181,93 @@ footer h6{
     display: block;
   }
   
+  /* geographies */
+  #geographies {
+    background-color: var(--bg-color-primary);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+  }
+  h2 {
+    color: var(--color-primary);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 40px;
+  }
+  #geographies p {
+    color: var(--color-tertiary);
+    text-align: center;
+  margin-bottom: 40px;
+    font-size: 24px;
+  }
+    .strategic-focus-section {
+      text-align: center;
+      margin: 40px 0;
+    }
+    .strategic-focus-title {
+      font-size: 2rem;
+      color: #204080;
+      font-weight: 700;
+      margin-bottom: 32px;
+    }
+    .focus-cards {
+      display: flex;
+      justify-content: center;
+      gap: 32px;
+      flex-wrap: wrap;
+    }
+    .focus-card {
+   
+      background: linear-gradient(53.58deg, #022551 0%, #1E5AA4 100%);
+
+      color: #fff;
+      border-radius: 16px;
+      width: 200px;
+      height: 180px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 6px 24px rgba(44, 62, 80, 0.12);
+      transition: transform 0.2s, box-shadow 0.2s;
+      position: relative;
+  background: linear-gradient(to right, #164D92, #E87722);
+      
+    }
+
+    .focus-card::before {
+    content: "";
+    position: absolute;
+    top: 2px; left: 2px; right: 2px; bottom: 2px;
+    background:linear-gradient(53.58deg, #022551 0%, #1E5AA4 100%); /* button bg */
+     border-radius: 14px;
+     z-index: 1;
+}
+
+    
+    .focus-card:hover {
+      transform: translateY(-6px) scale(1.03);
+      box-shadow: 0 12px 32px rgba(44, 62, 80, 0.18);
+    }
+ 
+    .focus-card-title {
+      font-size: 1.1rem;
+      font-weight: 500;
+      color: #fff;
+      margin-top: 8px;
+      z-index: 2;
+    }
+    .focus-icon{
+      width: 44px;
+      height: 40px;
+    z-index: 2;
+ 
+    }
+    /* social impact */
+    #social-impact {
+      background-color: var(--bg-color-primary);
+      padding: 40px 20px;
+      text-align: center;
+    }
