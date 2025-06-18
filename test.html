@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+   <style>
+    .gradient-text {
+      background: linear-gradient(to right, #164D92, #E87722);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .btn-gradient {
+      background: linear-gradient(to right, #164D92, #E87722);
+      color: white;
+      border: none;
+      border-radius: 50px;
+      font-weight: 600;
+      transition: all 0.3s ease;
+    }
+
+    .btn-gradient:hover {
+      opacity: 0.9;
+      transform: scale(1.05);
+    }
+
+    .carousel-item {
+      height: 90vh;
+      min-height: 400px;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+    }
+
+    .carousel-caption {
+      bottom: 20%;
+      text-align: left;
+    }
+
+    .carousel-caption h1 {
+      font-size: 3rem;
+    }
+
+    .carousel-caption p {
+      font-size: 1.25rem;
+    }
+
+    @media (max-width: 768px) {
+      .carousel-caption h1 {
+        font-size: 2rem;
+      }
+      .carousel-caption p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+   <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <div class="carousel-inner">
+
+    <!-- Slide 1 -->
+    <div class="carousel-item active" style="background-image: url('/assets/banner-image-1.png');">
+      <div class="container h-100 d-flex align-items-center">
+        <div class="carousel-caption text-white">
+          <h1 class="gradient-text">Be the Change<br>With Aster Volunteers</h1>
+          <p>Join hands to serve communities and make a lasting impact.</p>
+          <a href="#" class="btn btn-gradient px-4 py-2 mt-3">Get Involved</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="carousel-item" style="background-image: url('/assets/banner-image-2.png');">
+      <div class="container h-100 d-flex align-items-center">
+        <div class="carousel-caption text-white">
+          <h1 class="gradient-text">Volunteer Today<br>Heal Tomorrow</h1>
+          <p>Empower lives through healthcare, compassion, and service.</p>
+          <a href="#" class="btn btn-gradient px-4 py-2 mt-3">Join Us</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="carousel-item" style="background-image: url('/assets/banner-image-3.png');">
+      <div class="container h-100 d-flex align-items-center">
+        <div class="carousel-caption text-white">
+          <h1 class="gradient-text">Make a Difference<br>With Every Step</h1>
+          <p>Your support helps us reach those in need around the world.</p>
+          <a href="#" class="btn btn-gradient px-4 py-2 mt-3">Donate Now</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Controls -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+</body>
+</html>

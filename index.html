@@ -15,15 +15,16 @@
     rel="stylesheet">
   <!-- style sheet -->
   <link rel="stylesheet" href="/style.css">
+
 </head>
 
 <body>
   <!-- Header -->
   <nav id="mainHeader" class="navbar navbar-expand-lg bg-body-tertiary header">
-    <div class="container">
+    <div class="container-fluid bg-light">
       <!-- Logo -->
       <a class="navbar-brand header-logo" href="/">
-        <img src="./assets/logo.png" alt="Aster Volunteers" height="40">
+        <img src="./assets/logo.png" class="img-fluid" alt="Aster Volunteers" height="40">
       </a>
 
       <!-- Mobile Toggle -->
@@ -61,39 +62,80 @@
 
         <!-- CTA Buttons -->
         <div class="d-flex gap-2">
-          <a href="/login" class="btn btn-login header-cta">Log In</a>
-        <a href="/signup" class="btn-signup header-cta"><span>Sign Up</span></a>
+          <a href="/login" class=" btn-login header-cta">Log In</a>
+          <a href="/signup" class="btn-signup header-cta"><span>Sign Up</span></a>
         </div>
       </div>
     </div>
   </nav>
   <!-- header end -->
   <!-- hero banner -->
-  <section id="hero-banner" class="pt-5">
-    <div class="container container-fluid border">
+  <section id="hero-banner" class=" ">
 
-      <div class="row border">
-        <h3 class="text-center">hero banner</h3>
-        <div class="col-6 border">s</div>
-        <div class="col-6 border">s</div>
-      </div>
-    </div>
-  </div>
+
   </section>
   <!-- hero banner end -->
   <!-- one mission section -->
   <section id="about-us">
-    <div class="container container-fluid border">
-      <div class="row border">
-        <h3 class="text-center">one mission success</h3>
-        <div class="col-6 border">s</div>
-        <div class="col-6 border">s</div>
+    <div class="container border my-5">
+      <div class="row align-items-center">
+        <!-- Text Section -->
+        <div class="col-md-7 about-column" >
+          <h2 class="gradient-text">One Vision. Thousands of Hearts.<br>Millions of Lives.</h2>
+    <p>
+            A​ster Volunteers is the CSR arm of Aster DM Healthcare, founded on the vision of our ​Founder Chairman Dr.
+            Azad Moopen, who believes that humanity has the power to heal what medicine alone cannot. Since its launch
+            in 2017, Aster Volunteers has united individuals from every walk of life to create lasting impact in the
+            lives of those most in need.
+          </p>
+          <p>
+            With a footprint across <span class="about-highlight">20 countries</span> and outreach in over <span class="about-highlight">70 regions</span>, the movement has touched more than  <span class="about-highlight">​6​.5 million +</span> lives through initiatives in healthcare, education, disaster response, and social
+            empowerment.
+          </p>
+          <p>
+            At its heart are  <span class="about-highlight">85,000+</span> passionate volunteers, supported by Aster DM Healthcare, Aster DM Foundation (India
+            and International), the Dr. Moopen Family Foundation, and partner institutions, who work together to deliver
+            not just aid, but hope, dignity, and a chance at a better future.
+          </p>
+          <a href="#" class=" fw-bold">Join us and help build a better world.</a>
+        </div>
+
+        <div class="col-md-5">
+          <div id="imageSlider" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner ">
+              <div class="carousel-item active">
+                <img src="/assets/about-image-1.png" class="d-block w-100" alt="Volunteer Group 1"
+                  data-bs-interval="1000">
+              </div>
+              <div class="carousel-item">
+                <img src="/assets/about-image-2.png" class="d-block w-100" alt="Volunteer Group 2"
+                  data-bs-interval="1000">
+              </div>
+              <div class="carousel-item">
+                <img src="/assets/about-image-3.png" class="d-block w-100" alt="Volunteer Group 3"
+                  data-bs-interval="1000">
+              </div>
+              <div class="carousel-item">
+                <img src="/assets/about-image-4.png" class="d-block w-100" alt="Volunteer Group 4"
+                  data-bs-interval="1000">
+              </div>
+              <div class="carousel-item">
+                <img src="/assets/about-image-5.png" class="d-block w-100" alt="Volunteer Group 5"
+                  data-bs-interval="1000">
+              </div>
+              <div class="carousel-item">
+                <img src="/assets/about-image-6.png" class="d-block w-100" alt="Volunteer Group 5"
+                  data-bs-interval="1000">
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
   <!-- one mission success end -->
   <!-- geographies -->
-  <section id="geographies" class="pt-5">
+  <section id="geographies" class=" ">
     <div class="container border">
       <div class="row border">
         <h3 class="text-center">Aster volunteer geographies</h3>
@@ -105,12 +147,12 @@
   <!-- end of geographies -->
   <!-- startegic focus -->
   <section id="strategic-focus">
-   <div class="container border">
-    <div class="row border">
-      <h3 class="text-center">Strategic focus</h3>
-      <div class="col-6 border"></div>
-      <div class="col-6 border"></div>
-    </div>
+    <div class="container border">
+      <div class="row border">
+        <h3 class="text-center">Strategic focus</h3>
+        <div class="col-6 border"></div>
+        <div class="col-6 border"></div>
+      </div>
     </div>
   </section>
   <!-- end of startegic focus -->
@@ -138,11 +180,11 @@
   <!-- end of newsletter -->
 
   <!-- footer -->
-  <footer class="text-white pt-5 pb-4">
+  <footer class="text-white   pb-4">
     <div class="container">
       <div class="row">
         <!-- Logo + Description -->
-        <div class="col-md-2 mb-4">
+        <div class=" col-lg-2 col-md-3 mb-4">
           <img src="assets/logo-light.png" alt="Aster Volunteers" class="mb-3" style="max-height: 50px;">
           <p class="text-white-50">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
@@ -191,20 +233,22 @@
       </div>
 
       <!-- Download Buttons -->
-      <div class="row justify-content-end mb-4 download-buttons">
-        <div class="col-md-4 mb-2">
+      <div class="row justify-content-center justify-content-lg-end mb-4 download-buttons">
+
+
+        <div class="d-none d-lg-block col-lg-4  mb-2">
 
         </div>
         <div class="col-md-6 col-lg-3 mb-2">
           <a href="/assets/dummy.pdf" download
-            class="btn btn-light rounded-pill  w-100 fw-semibold d-flex justify-content-between align-items-center">
+            class="btn btn-light rounded-pill  w-100 fw-bold d-flex justify-content-between align-items-center">
             Download Digital Brochure
             <i class="bi bi-download ms-2"></i>
           </a>
         </div>
         <div class=" col-md-6 col-lg-3 mb-2">
           <a href="/assets/dummy.pdf" download
-            class="btn rounded-pill btn-light  w-100 fw-semibold d-flex justify-content-between align-items-center">
+            class="btn rounded-pill btn-light  w-100 fw-bold d-flex justify-content-between align-items-center">
             Download Mobile Medical Brochure
             <i class="bi bi-download ms-2 fw-bold"></i>
           </a>
@@ -212,7 +256,7 @@
 
 
         <!-- Social Icons -->
-        <div class="col-md-2 justify-content-center  align-items-center gap-3 d-flex gap-4">
+        <div class="col-lg-2 col-md-6 justify-content-center  align-items-center gap-3 d-flex">
           <a href="#" aria-label="Instagram"><i class="bi bi-instagram fs-5 text-white"></i></a>
           <a href="#" aria-label="Facebook"><i class="bi bi-facebook fs-5 text-white"></i></a>
           <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin fs-5 text-white"></i></a>
@@ -239,25 +283,25 @@
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<!-- for header autohide -->
- <script>
-  let lastScrollTop = 0;
-  const header = document.getElementById("mainHeader");
+  <!-- for header autohide -->
+  <script>
+    let lastScrollTop = 0;
+    const header = document.getElementById("mainHeader");
 
-  window.addEventListener("scroll", function () {
-    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    window.addEventListener("scroll", function () {
+      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
-    if (scrollTop > lastScrollTop) {
-      // Scroll down → hide header
-      header.style.top = "-100px";
-    } else {
-      // Scroll up → show header
-      header.style.top = "0";
-    }
+      if (scrollTop > lastScrollTop) {
+        // Scroll down → hide header
+        header.style.top = "-100px";
+      } else {
+        // Scroll up → show header
+        header.style.top = "0";
+      }
 
-    lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // For Mobile or negative scrolling
-  });
-</script>
+      lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // For Mobile or negative scrolling
+    });
+  </script>
 </body>
 
 </html>
