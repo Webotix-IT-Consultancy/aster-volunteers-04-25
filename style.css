@@ -129,7 +129,7 @@ color: var(--color-primary);
 font-size: clamp(10px, 0.8vw, 16px);
 }
 footer ul li a{
-  font-size: 17px;
+  font-size: 14px;
 }
 footer h6{
   font-size: 17px;
