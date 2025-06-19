@@ -475,11 +475,17 @@ border-bottom-right-radius: 12px;
 
 }
 @media (max-width: 576px) {
-    .end-icon-column,.icon-column,.end-icon-column::after{
-    border-top-left-radius: 14px;
-    border-top-right-radius: 14px;
+    .end-icon-column,.end-icon-column::after{
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
     border-bottom-right-radius: 14px;
     border-bottom-left-radius: 14px;
+  }
+  .icon-column{
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
   }
 
 }
