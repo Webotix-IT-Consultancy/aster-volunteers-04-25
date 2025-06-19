@@ -443,12 +443,12 @@ border-bottom-right-radius: 12px;
     gap: 12px;
   }
   .focus-card {
-    width: 90%;
-    height: 100px;
+    width: 47%;
+    /* height: 100px;
     font-size: 60px;
     flex-direction: row;
     gap: 30px;
-    align-items: center;
+    align-items: center; */
   }
   .focus-card-title{
     font-size: 1.2rem;
