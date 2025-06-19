@@ -475,7 +475,7 @@ border-bottom-right-radius: 12px;
 
 }
 @media (max-width: 576px) {
-    .end-icon-column,.end-icon-column::after{
+    .end-icon-column,.icon-column,.end-icon-column::after{
     border-top-left-radius: 14px;
     border-top-right-radius: 14px;
     border-bottom-right-radius: 14px;
