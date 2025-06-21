@@ -487,7 +487,9 @@ border-bottom-right-radius: 12px;
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
   }
-
+.aid-focus-card{
+  width: 97%;
+}
 }
   .custom-card {
       border-radius: 20px;
