@@ -702,6 +702,10 @@ border-bottom-right-radius: 12px;
 
 }
 @media (max-width: 1025px) {
+   #geographies p {
+  
+    font-size: 18px;
+  }
    /* .content-container{
       padding: 10px !important;
     } */
