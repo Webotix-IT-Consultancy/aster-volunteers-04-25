@@ -704,6 +704,10 @@ gap: 10px;
 }
 
 @media (max-width: 768px) {
+  .banner-img-desc p{
+
+  font-size: 9px;
+}
 .banner-text{
   font-size: 30px !important;
 }
