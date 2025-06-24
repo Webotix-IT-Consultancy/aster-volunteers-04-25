@@ -811,6 +811,23 @@
         prevEl: '.fade-prev',
       },
     });
+    
+  const swiperContainer = document.querySelector('.fade-swiper');
+
+  // Pause autoplay on hover
+  swiperContainer.addEventListener('mouseenter', () => {
+    fadeSwiper.autoplay.stop();
+  });
+
+  // Resume autoplay on mouse leave
+  swiperContainer.addEventListener('mouseleave', () => {
+    fadeSwiper.autoplay.start();
+  });
+
+ swiperContainer.addEventListener('click', () => {
+    fadeSwiper.slideNext();
+    fadeSwiper.autoplay.start(); // Optional: restarts autoplay
+  });
   </script>
   <!-- Bootstrap JS (optional, for interactive components) -->
 
