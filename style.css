@@ -101,7 +101,7 @@ letter-spacing: 0%;
   background: linear-gradient(to left, #164D92, #E87722);
 }
 .btn-signup.header-cta:hover {
-  background: linear-gradient(to right, #E87722, #164D92);
+  background: linear-gradient(to left, #E87722, #164D92);
   /* background-color: var(--color-primary);
   color: var(--color-secondary); */
 }
