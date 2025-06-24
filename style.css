@@ -478,6 +478,9 @@ border-bottom-right-radius: 12px;
 
 }
 @media (max-width: 576px) {
+   .pillar-count.col-sm-3 {
+        width: 100% !important;
+    }
     .end-icon-column,.end-icon-column::after{
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
@@ -718,6 +721,6 @@ border-bottom-right-radius: 12px;
 .content-container{
   padding: 12% 5%;
 }
-  .pillar-count.col-sm-3 {
+  .col-sm-3 {
         width: 23% !important;
     }
