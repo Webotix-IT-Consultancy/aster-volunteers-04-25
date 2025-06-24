@@ -198,6 +198,9 @@ footer h6{
     align-items: center;
     padding: 40px 20px;
   }
+  section{
+      padding: 40px 20px;
+  }
   h2 {
     color: var(--color-primary);
     margin-bottom: 20px;
@@ -481,6 +484,8 @@ border-bottom-right-radius: 12px;
     border-bottom-right-radius: 14px;
     border-bottom-left-radius: 14px;
   }
+
+
   .icon-column{
     border-top-left-radius: 14px;
     border-top-right-radius: 14px;
@@ -586,7 +591,7 @@ border-bottom-right-radius: 12px;
     @media (min-width: 992px) {
     .social-card.col-lg-2 {
       
-        width: 18.666667% !important;
+        width: 19.666667% !important;
     }
 }
 
@@ -713,3 +718,6 @@ border-bottom-right-radius: 12px;
 .content-container{
   padding: 12% 5%;
 }
+  .pillar-count.col-sm-3 {
+        width: 23% !important;
+    }
