@@ -684,6 +684,24 @@ border-bottom-right-radius: 12px;
 .second-banner-col{
   min-height: 320px;
 }
+.banner-img-desc{
+  position: absolute;
+
+  background-color: var(--color-primary);
+  color: white;
+max-width: 600px;
+bottom: 20%;
+left: 20%;
+right: 20%;
+border-radius: 12px;
+padding: 10px;
+gap: 10px;
+
+}
+.banner-img-desc p{
+  line-height: 100%;
+  font-size: 16px;
+}
 
 @media (max-width: 768px) {
 .banner-text{
@@ -738,3 +756,4 @@ border-bottom-right-radius: 12px;
   .col-sm-3 {
         width: 23% !important;
     }
+    
