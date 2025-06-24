@@ -629,6 +629,7 @@ border-bottom-right-radius: 12px;
     }
     .banner-container{
       /* position: absolute; */
+      max-height: 89vh;
     }
     .banner-text{
       color: white;
