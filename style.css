@@ -174,7 +174,7 @@ footer h6{
 }
  .swiper {
     width: 100%;
-    height: 400px; /* or auto, but not 0 */
+    height: auto;
   }
 
   .swiper-slide {
@@ -280,7 +280,7 @@ footer h6{
      .social-cards {
       display: flex;
       justify-content: center;
-      gap: 77px;
+      gap: 40px;
       flex-wrap: wrap;
     }
     .social-card {
@@ -441,7 +441,10 @@ border-bottom-right-radius: 12px;
 
 /* responsiveness */
 /* mobile and under */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
+  .social-cards{
+    gap: 12px;
+  }
   .focus-cards {
     gap: 12px;
   }
@@ -458,7 +461,7 @@ border-bottom-right-radius: 12px;
   }
   /* socaial card */
   .social-card{
-    width: 90%;
+    width: 100%;
     height: 180px;
     /* flex-direction: row; */
 
@@ -476,6 +479,11 @@ border-bottom-right-radius: 12px;
     /* margin-top: 20px; */
   }
 
+}
+@media (min-width: 1400px) {
+  .social-pillars .container{
+    padding-inline: 86px;
+  }
 }
 @media (max-width: 576px) {
    .pillar-count.col-sm-3 {
@@ -506,7 +514,7 @@ border-bottom-right-radius: 12px;
       background: #fff;
       max-width: 600px;
       height: 462px;
-      margin: 2rem auto;
+      margin: 1rem auto;
       position: relative;
     }
     .news-img {
@@ -574,9 +582,8 @@ border-bottom-right-radius: 12px;
       box-shadow: 0 2px 12px rgba(0,0,0,0.08);
       padding: 30px;
       background: #fff;
-      max-width: 403px;
       height: 156px;
-      margin: 2rem auto;
+      margin: 1rem auto;
       position: relative;
     }
     .herald-img{
