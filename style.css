@@ -694,9 +694,12 @@ border-bottom-right-radius: 12px;
 
 }
 @media (max-width: 1025px) {
-   .content-container{
+   /* .content-container{
       padding: 10px !important;
-    }
+    } */
+     .content-container{
+  padding: 6% 3% !important;
+}
     .banner-text-3{
   font-size: 30px !important;
 }
@@ -708,5 +711,5 @@ border-bottom-right-radius: 12px;
     }
 }
 .content-container{
-  padding: 5%;
+  padding: 12% 5%;
 }
