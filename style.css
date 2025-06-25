@@ -459,7 +459,7 @@ h2 {
     align-items: center; */
   }
   .focus-card-title {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   /* socaial card */
   .social-card {
@@ -732,6 +732,9 @@ h2 {
   }
   .carousel-indicators {
     bottom: 10px !important;
+  }
+  .news-title {
+    font-size: 1.2rem;
   }
 }
 @media (max-width: 1025px) {
