@@ -733,6 +733,10 @@ h2 {
   .carousel-indicators {
     bottom: 10px !important;
   }
+  .news-title {
+  font-size: 1.2rem;
+  
+}
 }
 @media (max-width: 1025px) {
   #geographies p {
