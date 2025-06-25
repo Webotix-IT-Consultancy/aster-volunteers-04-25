@@ -490,6 +490,9 @@ h2 {
   .pillar-count.col-sm-3 {
     width: 100% !important;
   }
+  .end-icon-column {
+     background: linear-gradient(to right, #164d92, #e87722);
+  }
   .end-icon-column,
   .end-icon-column::after {
     border-top-left-radius: 0px;
