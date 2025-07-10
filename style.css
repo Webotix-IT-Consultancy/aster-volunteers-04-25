@@ -28,9 +28,11 @@
   font-family: Lato;
   font-weight: 700;
   font-size: clamp(12px, 1vw, 16px);
-
   line-height: 100%;
   letter-spacing: 0%;
+}
+.body2-link:hover {
+color: var(--bg-color-orange);
 }
 
 /* header */
@@ -88,7 +90,7 @@
 }
 .btn-login:hover {
   background-color: var(--color-secondary);
-  color: var(--color-primary);
+  color: var(--bg-color-orange);
    transform: translateZ(5px) scale(1.01);
 }
 .btn-signup.header-cta {
@@ -100,6 +102,7 @@
     transition: transform 0.3s ease, opacity 0.3s ease;
 }
 .btn-signup.header-cta:hover {
+  color: var(--bg-color-orange);
   background: linear-gradient(to left, #e87722, #164d92);
     transform: translateZ(5px) scale(1.01);
   /* background-color: var(--color-primary);
