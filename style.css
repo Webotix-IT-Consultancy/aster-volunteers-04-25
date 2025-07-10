@@ -73,7 +73,7 @@
 .header-cta {
   padding: 8px 16px;
   border-radius: 100px;
-  font-weight: 600;
+  font-weight: bold;
   font-size: 16px;
   text-decoration: none;
   white-space: nowrap; /* Prevent text from breaking */
@@ -81,13 +81,15 @@
   transition: background 0.2s;
 }
 .btn-login {
-  border: var(--color-primary) 2px solid;
+  border: var(--color-primary) 3px solid;
   background-color: var(--color-primary);
   color: var(--color-secondary);
+ 
 }
 .btn-login:hover {
   background-color: var(--color-secondary);
   color: var(--color-primary);
+   transform: translateZ(5px) scale(1.01);
 }
 .btn-signup.header-cta {
   position: relative;
@@ -95,9 +97,11 @@
   font-weight: bold;
   color: var(--color-primary);
   background: linear-gradient(to left, #164d92, #e87722);
+    transition: transform 0.3s ease, opacity 0.3s ease;
 }
 .btn-signup.header-cta:hover {
   background: linear-gradient(to left, #e87722, #164d92);
+    transform: translateZ(5px) scale(1.01);
   /* background-color: var(--color-primary);
   color: var(--color-secondary); */
 }
@@ -105,10 +109,10 @@
 .btn-signup.header-cta::before {
   content: "";
   position: absolute;
-  top: 2px;
-  left: 2px;
-  right: 2px;
-  bottom: 2px;
+  top: 5%;
+  left: 3%;
+  right: 3%;
+  bottom: 5%;
   background: var(--color-secondary); /* button bg */
   border-radius: 22px;
   z-index: 1;
@@ -718,6 +722,13 @@ h2 {
   line-height: 100%;
   font-size: 16px;
 }
+@media (min-width: 769px) and (max-width: 805px) {
+.carousel-inner img {
+    height: 62vh;
+    object-fit: cover;
+  }
+}
+
 
 @media (max-width: 768px) {
   .banner-img-desc p {
@@ -740,7 +751,7 @@ h2 {
   }
 
   .carousel-inner img {
-    height: 50vh;
+    height: 64vh;
     object-fit: cover;
   }
   .carousel-indicators {
@@ -748,6 +759,12 @@ h2 {
   }
   .news-title {
     font-size: 1.2rem;
+  }
+}
+@media (max-width: 576px) {
+  .carousel-inner img {
+    height: 50vh;
+    object-fit: cover;
   }
 }
 @media (max-width: 1025px) {
@@ -782,6 +799,7 @@ h2 {
   width: 32px;
 }
 .explore-volunteers-btn {
+    border: var(--color-primary) 2px solid;
   background-color: var(--color-primary);
   border-radius: 100px;
   padding: 0.6rem 1.2rem;
@@ -790,4 +808,36 @@ h2 {
   font-size: 0.9rem;
   font-weight: 600;
   display: inline-block;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.explore-volunteers-btn:hover {
+cursor: pointer;
+ 
+   transform: translateZ(3px) scale(1.01);
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+}
+
+.custom-card{
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.custom-card:hover {
+  transform: translateY(-4px) scale(1.01);
+  box-shadow: 0 12px 32px rgba(44, 62, 80, 0.18);
+}
+.custom-card-2{
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.custom-card-2:hover {
+  transform: translateY(-4px) scale(1.01);
+  box-shadow: 0 12px 32px rgba(44, 62, 80, 0.18);
+}
+
+.arrow-circle {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.custom-card:hover .arrow-circle {
+  transform: translateZ(10px) scale(1.2);
+  opacity: 0.9;
 }
