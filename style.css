@@ -287,7 +287,7 @@ h2 {
 }
 .social-cards {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   gap: 40px;
   flex-wrap: wrap;
 }
@@ -490,7 +490,7 @@ h2 {
 }
 @media (min-width: 1400px) {
   .social-pillars .container {
-    padding-inline: 86px;
+    /* padding-inline: 86px; */
   }
 }
 @media (max-width: 576px) {
@@ -525,7 +525,7 @@ h2 {
   background: #fff;
   max-width: 600px;
   height: 462px;
-  margin: 1rem auto;
+  /* margin: 1rem auto; */
   position: relative;
 }
 .news-img {
@@ -597,8 +597,21 @@ h2 {
   position: relative;
 }
 .herald-img {
-  width: 158px;
-  height: 106px;
+  max-width: 158px;
+  max-height: 106px;
+}
+@media (max-width: 375px) {
+.herald-img {
+  max-width: 115px;
+  max-height: 136px;
+}
+.herald-month {
+  font-size: 15px;
+}
+.herald-year {
+  font-size: 20px;
+  font-weight: 700;
+}
 }
 .herald-month {
   font-size: 24px;
@@ -843,4 +856,18 @@ cursor: pointer;
 .custom-card:hover .arrow-circle {
   transform: translateZ(10px) scale(1.2);
   opacity: 0.9;
+}
+@media (min-width: 768px) and (max-width: 992px) {
+    .social-card.col-lg-2.col-md-4 {
+        flex: 0 0 auto;
+        width: 47.333333% !important;
+    }
+    .social-cards {
+      gap: 20px  !important;
+    }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+    .container, .container-sm {
+        max-width: 720px;
+    }
 }
