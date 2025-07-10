@@ -32,6 +32,9 @@
   line-height: 100%;
   letter-spacing: 0%;
 }
+.body2-link:hover {
+color: var(--bg-color-orange);
+}
 
 /* header */
 .header {
