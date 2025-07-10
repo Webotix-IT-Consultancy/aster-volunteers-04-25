@@ -28,7 +28,6 @@
   font-family: Lato;
   font-weight: 700;
   font-size: clamp(12px, 1vw, 16px);
-
   line-height: 100%;
   letter-spacing: 0%;
 }
